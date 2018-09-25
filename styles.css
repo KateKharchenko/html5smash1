@@ -1,0 +1,137 @@
+body { /* 1 */
+	color: #000305;
+	background: #f5f4ef;
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 14px;
+}
+
+.container { /* 10 */
+	width: 70%;
+	margin: 0 auto;
+}
+
+a { /* 1 */
+	color: #C74451;
+	transition: all .4s ease-in;
+}
+
+a:hover,
+a:focus { /* 11 */
+	color: #fff;
+	background: #C74451;
+}
+
+.h1 { /* 10 */
+	font-size: 50px;
+}
+
+.h1 a {
+	color: #000503;
+	text-decoration: none;
+	display: block;
+}
+
+.h1 a:hover,
+.h1 a:focus {
+	color: #C74451;
+	background: transparent;
+}
+
+h1 span {
+	font-size: 18px;
+	display: block;
+}
+
+.section {
+	background: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.section h2 {
+	margin: 0;
+	color: #C74451;
+}
+
+.section h3 {
+	margin: 5px 0;
+}
+
+.section h3 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.section h3 a:hover,
+.section h3 a:focus {
+	color: #fff;
+}
+
+.section p {
+	margin: 0;
+}
+
+.article + .article {
+	margin: 20px 0 0 0;
+	padding: 20px 0 0 0;
+	border-top: 1px #eee solid;
+}
+
+.article h4 {
+	margin: 0;
+	font-size: 16px;
+}
+
+.article h4 a {
+	text-decoration: none;
+}
+
+.article p {
+	margin: 5px 0;
+}
+
+.article time {
+	font-size: 12px;
+	font-style: italic;
+}
+
+aside h4 {
+	color: #C74451;
+	margin: 0;
+	font-size: 16px;
+}
+
+aside ul {
+	padding: 0;
+	list-style-type: none;
+	display: inline-block;
+}
+
+aside ul a {
+	color: #000305;
+	text-decoration: none;
+	display: block;
+	border-bottom: 1px #eee solid;
+	padding: 5px;
+}
+
+
+.row {
+	font-size: 0;
+}
+
+.column {
+	display: inline-block;
+	width: 30%;
+	font-size: 14px;
+	vertical-align: top;
+}
+
+.column--wide {
+	width: 70%;
+}
+
+.text-right {
+	text-align: right;
+}
